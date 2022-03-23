@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= form.label :artist %>
-    <%= form.text_field :artist %>
+    <%= form.select :artist, Artist.all_names %>
   </div>
 
   <div class="field">
