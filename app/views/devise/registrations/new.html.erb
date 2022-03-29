@@ -28,6 +28,11 @@
       <%= f.password_field :password_confirmation, autocomplete: "new-password", class:'form-control' %>
     </div>
 
+    <div class='field'>
+      <%= f.label :role %><br />
+      <%= f.select :role, [["Admin", :admin],["User", :user]], {}, {class: 'form-select'} %>
+    </div>
+
     <div class="actions">
       <%= f.submit "Sign up", class:'btn btn-primary my-2' %>
     </div>

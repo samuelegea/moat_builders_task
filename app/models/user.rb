@@ -6,8 +6,6 @@ class User < ApplicationRecord
   
   validates :username, :fullname, presence: true
   validates :username, uniqueness: true
-
   
-
-  has_many :roles
+  enum role:[:admin, :user]
 end
