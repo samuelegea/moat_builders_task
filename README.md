@@ -2,6 +2,22 @@
 
 ## Developer Task
 
+### What was done
+
+First of all, thank you for the opportuny and here we are, presenting you this task.
+It was pretty straight foward, so I deployed the application on heroku if you can test the [demo.](https://enigmatic-river-17723.herokuapp.com/) (It may that a while to load, because I'm on the free tier).
+
+I used Ruby on Rails to bootstrap this application, with Devise for session handling, CanCanCan for authorization, Bootstrap 5.1 to styles and PostgreSQL for the database
+You may run the application locally with
+
+```powershell
+$ git clone git@github.com:samuelegea/moat_builders_task.git
+$ cd moat_builders_task
+$ docker compose up
+```
+And you're up and running! Although you have the [deployed alternative](https://enigmatic-river-17723.herokuapp.com/)
+
+Thank you for the opportunity and I hope I'll see you soon in the other steps of the process!
 ### Description
 
 We would like you to create a music collection app. This task is to check your skills on code pattern, code organization and software architecture experience.
@@ -79,3 +95,5 @@ Once done, please consider the following:
   - A deployed and running version that we could test is a bonus
 
 Feel free to come up with any requirement omitted from the specification (eg: error messages, user-flows, etc). Just keep in mind that we're not looking for completeness of features nor design. You should not need to spend more than a few hours on this task.
+
+
