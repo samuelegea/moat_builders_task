@@ -1,19 +1,20 @@
 <p id="notice"><%= notice %></p>
+<div class='card p-4'>
+  <p>
+    <strong>Artist:</strong>
+    <%= @album.artist %>
+  </p>
 
-<p>
-  <strong>Artist:</strong>
-  <%= @album.artist %>
-</p>
+  <p>
+    <strong>Name:</strong>
+    <%= @album.name %>
+  </p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @album.name %>
-</p>
+  <p>
+    <strong>Year:</strong>
+    <%= @album.year %>
+  </p>
 
-<p>
-  <strong>Year:</strong>
-  <%= @album.year %>
-</p>
-
-<%= link_to 'Edit', edit_album_path(@album) %> |
-<%= link_to 'Back', albums_path %>
+  <%= link_to 'Edit', edit_album_path(@album), class: 'link-secondary' %>
+  <%= link_to 'Back', albums_path, class: 'link-secondary' %>
+</div>
