@@ -1,6 +1,7 @@
 <%= form_with(model: album) do |form| %>
   <% if album.errors.any? %>
-    <div id="error_explanation">
+  
+    <div id="error_explanation" class='alert alert-danger'>
       <h2><%= pluralize(album.errors.count, "error") %> prohibited this album from being saved:</h2>
 
       <ul>
